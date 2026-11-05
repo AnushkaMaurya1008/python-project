@@ -15,85 +15,87 @@ else:
 
 
 # #check if the request is successful
-# if response.status_code == 200:
-#     print("Successfully fetched the web page")
-# else:
-#     print("Failed")
+if response.status_code == 200:
+    print("Successfully fetched the web page")
+else:
+    print("Failed")
 
-# soup=BeautifulSoup(response.text,"html.parser")
+soup=BeautifulSoup(response.text,"html.parser")
 
-# title=soup.title.string
-# print(f"Page Title:{title}:")
+title=soup.title.string
+print(f"Page Title:{title}:")
 
 
 
-# links=soup.find_all("a")
-# for link in links:
-#     href =link.get("href")
-#     text= link.get_text()
-#     print(f"link text : {text},URL:{href}")
+links=soup.find_all("a")
+for link in links:
+    href =link.get("href")
+    text= link.get_text()
+    print(f"link text : {text},URL:{href}")
 
-# response=requests.get(url)
+response=requests.get(url)
 
-# check if the request is successful
-# if response.status_code == 200:
-#     print("Successfully fethed the web page")
-# else:
-#     print("Failed")
+check if the request is successful
+if response.status_code == 200:
+    print("Successfully fethed the web page")
+else:
+    print("Failed")
 
 
 # #check if the request is successful
-# if response.status_code == 200:
-#     print("Successfully fetched the web page")
-# else:
-#     print("Failed")
+if response.status_code == 200:
+    print("Successfully fetched the web page")
+else:
+    print("Failed")
 
-# soup=BeautifulSoup(response.text,"html.parser")
+soup=BeautifulSoup(response.text,"html.parser")
 
-# title=soup.title.string
-# print(f"Page Title:{title}:")
-
-
-
-# links=soup.find_all("a")
-# for link in links:
-#     href =link.get("href")
-#     text= link.get_text()
-#     print(f"link text : {text},URL:{href}")
+title=soup.title.string
+print(f"Page Title:{title}:")
 
 
-# import csv
-# links=soup.find_all("a")
-# with open("website_links.csv", "w",newline="",encoding="utf-8") as file
-#      writer=csv.writer(file)
+
+links=soup.find_all("a")
+for link in links:
+    href =link.get("href")
+    text= link.get_text()
+    print(f"link text : {text},URL:{href}")
 
 
-# #
-# import requests
-# from bs4 import BeautifulSoup
-
-# url="https://www.amazon.com/"
-# response=requests.get(url)
+import csv
+links=soup.find_all("a")
+with open("website_links.csv", "w",newline="",encoding="utf-8") as file
+     writer=csv.writer(file)
 
 
-# soup=BeautifulSoup(response.text,"html.parser")
+#
+import requests
+from bs4 import BeautifulSoup
+
+url="https://www.amazon.com/"
+response=requests.get(url)
 
 
-# title=soup.title.string
-# print(f"Page title: {title}")
+soup=BeautifulSoup(response.text,"html.parser")
 
 
-# import csv
+title=soup.title.string
+print(f"Page title: {title}")
 
-# links=soup.find_all("a")
 
-# with open("website_links.csv","w",newline="",encoding="utf-8") as file:
-#     writer = csv.writer(file)
-#     writer.writerow(["Link Text", "URL"])
 
-#     for link in links:
-#         href=link.get("href")
-#         text=link.get_text(strip=True)
-#         writer.writerow([text,href])
 
-#         print("Link saved successfully")
+import csv
+
+links=soup.find_all("a")
+
+with open("website_links.csv","w",newline="",encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Link Text", "URL"])
+
+    for link in links:
+        href=link.get("href")
+        text=link.get_text(strip=True)
+        writer.writerow([text,href])
+
+        print("Link saved successfully")
