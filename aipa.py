@@ -1,117 +1,117 @@
-# print("me")
-# print("anushka")
+print("me")
+print("anushka")
 
-# name="Anushka"
-# age=17
-# salary=2500.00
-# is_student=True
+name="Anushka"
+age=17
+salary=2500.00
+is_student=True
 
-# print(type(name))
-# print(type(age))
-# print(type(salary))
-# print(type(is_student))
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(is_student))
 
-# is_student=True
-# NSTI_collage=True
-
-
-
-# students=["Anita","Priya","Riya","Neha"]
-
-# print(students[0]) #access the emenent at 0 index
-# print(students[1]) #access the emenent at 1 index 
-
-# students[0]="Supriya" #modify the element of list
-# students[2]="Divya" #modify the element of list
-
-# print(students)
-# students.append("Princy")
-# print(students)
-
-# students.insert(1, "Princy")
-# print(students)
-
-# students.remove("Priya") #remove the elemet of list
-# print(students)
-
-# marks=(70,80,90,100)
-
-# print(marks)
-
-# marks[0]=90
-
-# print(marks)
-#marks[1]=90 #X
-
-#Set
-# name={"Shreya","Ajeet","Aditya","Shreya","Khushi","Shreya"}
-# print(name)
-
-# name.add("Ayush")
-# name.add("Ritika")
-# 
-
-# name.update(["Vishal","Rajesh","Prashant"]) #add multiple name 
-# print(name)
-
-
-#Dictionary
-
-# student=[
-#     {
-#     "name":"Ajeet",
-#     "age":27,
-#     "course":"AIPA",
-#     "Address":"Allahabad",
-#     "Mobile No":"9598925993"
-# },
-
-
-# {"name":"Aditya","age":26,"course":"AIPA","Address":"Varanasi","Mobile No":"9876543210"},
+is_student=True
+NSTI_collage=True
 
 
 
+students=["Anita","Priya","Riya","Neha"]
 
-# {"name":"Shreya","age":25,"course":"AIPA","Address":"Allahabad","Mobile No":"9876543210"},
-# ]
+print(students[0]) #access the emenent at 0 index
+print(students[1]) #access the emenent at 1 index 
 
-# print(student[2]["name"])
+students[0]="Supriya" #modify the element of list
+students[2]="Divya" #modify the element of list
 
-# student = {"name": "Ajeet", "age": 27, "course": "AIPA"}
-# print(student["name"])
-# print(student["age"])
-# student["age"]=28
-# # student["city"]="Allahabad"
-# print(student)
+print(students)
+students.append("Princy")
+print(students)
 
-# student.items():
-# print(key,":",value)
+students.insert(1, "Princy")
+print(students)
 
-# get(), .keys(), .values()
-# print(student.get("course"))
-# print(student.keys())
-# print(student.values())
+students.remove("Priya") #remove the elemet of list
+print(students)
 
-# students = [
-#     {"name": "Aditya", "age": 26},
-#     {"name": "Shreya", "age": 25},
-#     {"name": "Ajeet", "age": 27},
-# ]
-# print(students[1]["name"])
-# print(student["age"])
+marks=(70,80,90,100)
+
+print(marks)
+
+marks[0]=90
+
+print(marks)
+marks[1]=90 #X
+
+Set
+name={"Shreya","Ajeet","Aditya","Shreya","Khushi","Shreya"}
+print(name)
+
+name.add("Ayush")
+name.add("Ritika")
+
+
+name.update(["Vishal","Rajesh","Prashant"]) #add multiple name 
+print(name)
+
+
+Dictionary
+
+student=[
+    {
+    "name":"Ajeet",
+    "age":27,
+    "course":"AIPA",
+    "Address":"Allahabad",
+    "Mobile No":"9598925993"
+},
+
+
+{"name":"Aditya","age":26,"course":"AIPA","Address":"Varanasi","Mobile No":"9876543210"},
+
+
+
+
+{"name":"Shreya","age":25,"course":"AIPA","Address":"Allahabad","Mobile No":"9876543210"},
+]
+
+print(student[2]["name"])
+
+student = {"name": "Ajeet", "age": 27, "course": "AIPA"}
+print(student["name"])
+print(student["age"])
+student["age"]=28
+# student["city"]="Allahabad"
+print(student)
+
+student.items():
+print(key,":",value)
+
+get(), .keys(), .values()
+print(student.get("course"))
+print(student.keys())
+print(student.values())
+
+students = [
+    {"name": "Aditya", "age": 26},
+    {"name": "Shreya", "age": 25},
+    {"name": "Ajeet", "age": 27},
+]
+print(students[1]["name"])
+print(student["age"])
  
 
-#Arithmetic Operators
-# a=10
-# b=3
+Arithmetic Operators
+a=10
+b=3
 
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a%b)
-# print(a//b)
-# print(a**b)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
 
 
 #Assignment 
